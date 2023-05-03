@@ -7,14 +7,6 @@ hwbinder_use(location)
 
 allow location self:capability setgid;
 
-# files in /sys
-r_dir_file(location, sysfs_soc)
-r_dir_file(location, sysfs_esoc)
-r_dir_file(location, sysfs_msm_subsys)
-r_dir_file(location, sysfs_ssr)
-dontaudit location sysfs_faceauth:dir r_dir_perms;
-dontaudit location sysfs_faceauth:file r_file_perms;
-
 # Execute /vendor/bin/lowi-server
 allow location location_exec:file rx_file_perms;
 
