@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e218790f_fac67fa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-12-09T13:24:58Z",
+      "side": 1,
+      "message": "This fixes all face related denials and makes it go further but still fails at a later stage:\n\n    E Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can\u0027t dequeue next output buffer: Connection timed out (-110)\n    D ACameraDeviceVendor: Device error received, code 3, frame number 12, request ID 0, subseq ID 0 physical camera ID \n    I BiometricsFace@1.0: CameraHelper::AwaitCaptures: unrecoverable error/cancel observed",
+      "revId": "9474a2c22c12546ebf5eed4d807f97d7d8f84339",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
